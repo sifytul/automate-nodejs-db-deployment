@@ -20,6 +20,6 @@ mysql -e "CREATE TABLE users(
     PRIMARY KEY(id)
     );"
 
-mysql -e "INSERT INTO users (name, email, register_date) VALUES('Fred', 'fred@gmail.com", now()), ('Sara', 'sara@gmail.com', now(), 'Pato', 'pato@gmail.com', now());"
+mysql -e "INSERT INTO users (name, email, register_date) VALUES ('Fred', 'fred@gmail.com;, now()), ('Sara', 'sara@gmail.com', now()), ('Pato', 'pato@gmail.com', now());"
 
 systemctl restart mysql
